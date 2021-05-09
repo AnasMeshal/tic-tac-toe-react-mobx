@@ -1,5 +1,5 @@
 # QUICK NOTE!
-I tried to mix the old way of react syntax with the new way, in my point of view i don't think this project will need a lot of styles files and styled components that's why i used css and i found it very cool and fun to use. 
+I tried to mix the old way of react syntax with the new way, in my point of view I don't think this project will need a lot of styleing files and styled components, that's why I used css and I found it very cool and fun to use. 
 
 # Getting Started with Create React App
 
