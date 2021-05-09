@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  width: 50%;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Itim", cursive;
+  font-size: 50px;
+  color: purple;
+  text-align: center;
+  margin: 60px 0 10px 0;
+}
+
+.wrapper {
+  width: 70%;
+  height: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  font-size: 60px;
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+
+.reload {
+  width: 100px;
+  height: 80px;
+  font-size: 30px;
+  text-align: center;
+  background-color: purple;
+  align-self: center;
+  border: solid black 3px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 95%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 80%;
+  }
+
+  .wrapper {
+    width: 93.1%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 65%;
+  }
+
+  .wrapper {
+    width: 93.1%;
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  .container {
+    width: 60%;
+  }
+
+  .wrapper {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 50%;
+  }
+
+  .wrapper {
+    width: 78%;
+  }
+}
